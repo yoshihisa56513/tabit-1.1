@@ -1,7 +1,8 @@
-<?php echo $this->Html->link('動画をみよう',
+<?php echo $this->Html->link('旅動画一覧',
 	array('controller'=>'Videos',
 		'action'=>'index'));
 ?>
+
 <div class="customers form">
 	<?php echo $this ->Form->create('Video', array('class' =>'form-horizontal'));?>
 <fieldset>
