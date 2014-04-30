@@ -19,15 +19,18 @@
 	?>
 </head>
 <body>
-<?php echo $this->Html->link('旅動画を追加しよう',
-	array('controller'=>'Videos',
-		'action'=>'add'));
-?>
-<br>
 <?php echo $this->Html->link('旅動画一覧',
 	array('controller'=>'Videos',
 		'action'=>'index'));
 ?>
+<br>
+
+<?php echo $this->Html->link('旅動画を追加しよう',
+	array('controller'=>'Videos',
+		'action'=>'add'));
+?>
+
+
 <div class="videos view">
 
 	
